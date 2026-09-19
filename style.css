@@ -40,8 +40,8 @@ body {
   max-width: none;
   width: 100%;
   margin: 0;
-  padding-left: clamp(1.2rem, 4vw, 5rem);
-  padding-right: clamp(1.2rem, 4vw, 5rem);
+  padding-left: clamp(1.2rem, 4vw, 3rem);
+  padding-right: clamp(1.2rem, 4vw, 3rem);
 }
 
 /* Header / Nav */
@@ -136,7 +136,7 @@ body {
   text-transform: uppercase;
   color: var(--orange);
   font-weight: 600;
-  margin-bottom: 2.2rem;
+  margin-bottom: 0.8rem;
 }
 h1 {
   font-family: var(--font-display);
@@ -147,7 +147,7 @@ h1 {
   color: var(--off-white);
 }
 .hero-about-wrap {
-  margin: 0.2rem 0 2.3rem;
+  margin: 0 0 1rem;
 }
 .about-link {
   display: inline-block;
