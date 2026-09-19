@@ -40,8 +40,8 @@ body {
   max-width: none;
   width: 100%;
   margin: 0;
-  padding-left: clamp(2rem, 5vw, 5rem);
-  padding-right: clamp(4rem, 8vw, 8rem);
+  padding-left: clamp(1.2rem, 4vw, 5rem);
+  padding-right: clamp(1.2rem, 4vw, 5rem);
 }
 
 /* Header / Nav */
@@ -112,7 +112,7 @@ body {
 .hero-left {
   width: min(100%, 62rem);
   max-width: 62rem;
-  margin-left: 8rem;
+  margin-left: 0;
 }
 .hero_eyebrow {
   font-size: clamp(1rem, 2vw, 1.2rem);
@@ -480,6 +480,18 @@ main > section:nth-of-type(even) {
   .hero-grid {
     grid-template-columns: 1fr;
   }
+  .hero .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero-left {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .lead {
+    max-width: 100%;
+  }
   .project.featured {
     grid-template-columns: 1fr;
   }
@@ -502,6 +514,10 @@ main > section:nth-of-type(even) {
 @media (max-width: 520px) {
   h1 {
     font-size: 1.6rem;
+  }
+  .hero .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .cards.four {
     grid-template-columns: 1fr;
